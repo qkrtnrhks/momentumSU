@@ -1,5 +1,6 @@
 .form,
-.greeting {
+.greeting,
+.delete_name {
   display: none;
 }
 
@@ -119,4 +120,15 @@ p {
   top: 0px;
   left: 10px;
   font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+.greeting_div {
+  position: relative;
+}
+
+.delete_name {
+  position: absolute;
+  top: 25px;
+  right: -27px;
+  background-color: rgba(0, 0, 0, 0);
 }
